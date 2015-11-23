@@ -3,10 +3,10 @@ public class Factorial{
 
 		long fact = 1;
 
-		for (int i = 1;i<=100;i++){
+		for (int i = 1;i<=20;i++){
 
 			fact*=i;
-			System.out.printf("Factorial of %d is: %d%n", i, fact);
+			System.out.printf("Factorial of %d\t%d%n", i, fact);
 
 		}//end of for
 		//System.out.println(fact);

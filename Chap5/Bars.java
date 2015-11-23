@@ -12,6 +12,7 @@ public class Bars{
 		int stars2 = 0;
 		int stars3= 0;
 		int stars4 = 0;
+		int value = 0;
 
 		while(counter!=5){
 		System.out.println("Enter five number between 1 adn tricet");
@@ -38,7 +39,34 @@ public class Bars{
 		counter++;
 			
 	}//end of while
-	int counter2 = 0;
+for(int counter = 1;counter<5;counter++){
+	switch(counter){
+
+		case 1:
+		 value = stars1;
+		break;
+
+		case 2:
+		value = stars2;
+		break;
+
+		case 3:
+		value = stars3;
+		break;
+
+		case 4:
+		value = stars4;
+		break;
+
+	}
+}
+for(int i ==1;i<value;i++){
+
+	System.out.print("*");
+}
+System.out.println();
+
+/*	int counter2 = 0;
 	int counter3 = 0;
 	int counter4 = 0;
 	int counter5 = 0;
@@ -64,5 +92,6 @@ public class Bars{
 		System.out.print("*");
 		counter5++;
 	}
+	*/
 }
 }
