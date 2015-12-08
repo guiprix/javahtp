@@ -27,10 +27,13 @@ public class InterestMod1
          for( int year =1;year<=10;year++){
 
              pow *= (1+rate)*2;
+             amount =(int) principal * pow;
+             System.out.printf("amount after: %.2f%n",amount);
+
          }
 
-         amount =(int) principal * pow;
-         System.out.printf("amount after: %.2f%n",amount);
+         
+         
    }
 } // end class Interest
 
